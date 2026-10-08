@@ -1,0 +1,23 @@
+# Binaries
+/bin/
+/server
+*.exe
+
+# Environment
+.env
+
+# Local image storage (keep directory placeholders)
+data/originals/*
+!data/originals/.gitkeep
+data/thumbnails/*
+!data/thumbnails/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Test / coverage
+coverage.out
+*.test
